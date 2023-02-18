@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'login_screen.dart';
+import 'package:flutter_alterr_kharis/feature/auth/login/ui/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +15,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+
       /// TODO() Change Root HERE :
-      home: const LoginScreen(),
+      home: LoginScreen(),
     );
   }
 }
